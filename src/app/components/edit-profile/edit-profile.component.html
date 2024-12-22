@@ -1,0 +1,39 @@
+<app-navbar></app-navbar>
+
+
+<div class="outer">
+    <div class="card sign-card">
+        <div class="card-title">
+            <h1>Edit profile</h1>
+        </div>
+        <form>
+            <div class="mb-3">
+                <label for="fname" class="form-label" style="color: #737373;">First Name</label>
+                <input type="text" #fname class="form-control" id="fname" value="{{firstName}}">
+              </div>
+              <div class="mb-3">
+                <label for="lname" class="form-label" style="color: #737373;">Last Name</label>
+                <input type="text" #lname class="form-control" id="lname" value="{{lastname}}">
+              </div>
+            <div class="mb-3">
+              <label for="Emobile" class="form-label" style="color: #737373;">Mobile Number</label>
+              <input type="text" #Emobile class="form-control" id="Emobile" value="{{mobile}}">
+            </div>
+            <div class="mb-3">
+                <label for="accNo" class="form-label" style="color: #737373;">Account Number</label>
+                <input type="text" #accNo class="form-control" id="accNo" value="{{accno}}">
+              </div>
+            <div class="mb-3">
+              <label for="Epassword" class="form-label" style="color: #737373;">Password</label>
+              <input type="text" #Epassword class="form-control" id="Epassword" value="{{password}}">
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <button type="submit" class="btn btn-primary" style="background-color: #dada0b;color: #737373;" (click)="editProfileDetails(fname.value,lname.value,Emobile.value,accNo.value,Epassword.value)">Edit</button>
+                </div>
+                
+            </div>
+            
+          </form>
+    </div>
+</div>

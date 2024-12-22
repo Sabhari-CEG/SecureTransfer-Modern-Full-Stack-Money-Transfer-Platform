@@ -1,0 +1,16 @@
+.bg-body-tertiary{
+    background-color: #737373 !important;
+}
+
+.click-buttons{
+    display: flex;
+    align-items: center;
+}
+
+.btn-outline-primary{
+    background-color: black;
+    border: 1px solid #dada0b;
+    border-radius: 8px;
+    margin: 2%;
+}
+

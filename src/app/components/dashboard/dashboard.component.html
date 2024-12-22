@@ -1,0 +1,31 @@
+<app-navbar></app-navbar>
+<div class="outer">
+    <div class="card outer-card-dashboard">
+        <div class="card-body dashboard-card">
+            <p>Welcome, {{firstName}} {{lastName}}!</p>
+        </div>
+    </div>
+</div>
+<div class="outer">
+    <div class="card outer-card-dashboard">
+        <div class="card-title dashboard-title">
+            <p style="font-size: 1.5rem;">Account No : </p>
+            <p style="font-size: 1.5rem; color: #dada0b; padding-left: 3%;">{{accNo}}</p>
+        </div>
+        <div class="card-body dashboard-card">
+            <p style="font-size: 1.5rem;">Balance : </p>
+            <p style="font-size: 1.5rem; color: #dada0b; padding-left: 3%;">${{balance}}</p>
+        </div>
+        <div class="card-footer dashboard-footer">
+            <div class="row button-row">
+                <div class="col-6 button-col">
+                    <button class="btn btn-sm btn-outline-primary" type="button" style="color: #dada0b;" (click)="navigateToDeposite()">Deposite Money</button>
+                </div>
+                <div class="col-6 button-col">
+                    <button class="btn btn-sm btn-outline-primary" type="button" style="color: #dada0b;" (click)="navigateToSend()">Send Money</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

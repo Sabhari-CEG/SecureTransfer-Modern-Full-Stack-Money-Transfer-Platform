@@ -1,0 +1,19 @@
+.outer-table{
+    margin: 5%;
+    border: 2px solid #737373;
+    border-radius: 8px;
+}
+
+.table-heading{
+    background-color: #dada0b !important;
+    color: #737373;
+}
+
+.table-body{
+    color: #737373;
+
+}
+
+.table-body-amount{
+    color: #dada0b;
+}

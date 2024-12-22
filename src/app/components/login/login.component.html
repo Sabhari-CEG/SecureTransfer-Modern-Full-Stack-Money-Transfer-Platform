@@ -1,0 +1,27 @@
+<div class="outer">
+    <div class="card login-card">
+        <div class="card-title">
+            <h1>Login</h1>
+        </div>
+        <form>
+            <div class="mb-3">
+              <label for="mobile" class="form-label" style="color: #737373;">Mobile number</label>
+              <input type="number" #mobile class="form-control" id="mobile">
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label" style="color: #737373;">Password</label>
+              <input type="password" #password class="form-control" id="password">
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <button type="submit" class="btn btn-primary" style="background-color: #dada0b;color: #737373;" (click)="checkLogin(mobile.value,password.value)">Submit</button>
+                </div>
+                <div class="col-8">
+                    <button type="submit" class="btn btn-secondary" style="background-color: #737373;color: #dada0b;margin-left: 5%;" (click)="navigateToSignup()">New User?</button>
+                </div>
+            </div>
+            
+          </form>
+    </div>
+</div>
+

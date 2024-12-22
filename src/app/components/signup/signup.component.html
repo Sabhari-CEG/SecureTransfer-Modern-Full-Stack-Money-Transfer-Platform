@@ -1,0 +1,39 @@
+<div class="outer">
+    <div class="card sign-card">
+        <div class="card-title">
+            <h1>Signup</h1>
+        </div>
+        <form>
+            <div class="mb-3">
+                <label for="fname" class="form-label" style="color: #737373;">First Name</label>
+                <input type="text" #fname class="form-control" id="fname">
+              </div>
+              <div class="mb-3">
+                <label for="lname" class="form-label" style="color: #737373;">Last Name</label>
+                <input type="text" #lname class="form-control" id="lname">
+              </div>
+            <div class="mb-3">
+              <label for="mobile" class="form-label" style="color: #737373;">Mobile Number</label>
+              <input type="number" #mobile class="form-control" id="mobile">
+            </div>
+            <div class="mb-3">
+                <label for="accNo" class="form-label" style="color: #737373;">Account Number</label>
+                <input type="number" #accNo class="form-control" id="accNo">
+              </div>
+            <div class="mb-3">
+              <label for="password" class="form-label" style="color: #737373;">Password</label>
+              <input type="password" #password class="form-control" id="password">
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <button type="submit" class="btn btn-primary" style="background-color: #dada0b;color: #737373;" (click)="signup(fname.value,lname.value,mobile.value,accNo.value,password.value)">Signup</button>
+                </div>
+                <div class="col-8">
+                    <button type="submit" class="btn btn-secondary" style="background-color: #737373;color: #dada0b;margin-left: 5%;" (click)="NavigateToLogin()" >Back to Login</button>
+                </div>
+            </div>
+            
+          </form>
+    </div>
+</div>
+

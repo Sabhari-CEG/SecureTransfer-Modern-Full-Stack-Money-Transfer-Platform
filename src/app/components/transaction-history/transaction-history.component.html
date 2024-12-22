@@ -1,0 +1,20 @@
+<app-navbar></app-navbar>
+
+<div class="outer-table">
+    <table class="table">
+        <thead >
+            <tr >
+              <th scope="col" class="table-heading">Time</th>
+              <th scope="col" class="table-heading">Transaction Type</th>
+              <th scope="col" class="table-heading">Amount</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let transaction of tableData">
+                <td class="table-body">{{transaction.time}}</td>
+                <td class="table-body">{{transaction.type}}</td>
+                <td class="table-body-amount">${{transaction.amount}}</td>
+            </tr>
+        </tbody>
+      </table>
+</div>

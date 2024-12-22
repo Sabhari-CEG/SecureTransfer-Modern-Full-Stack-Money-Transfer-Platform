@@ -1,0 +1,18 @@
+.outer-deposite-card{
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.deposite-card{
+    padding: 3%;
+}
+
+.button-row-deposite{
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

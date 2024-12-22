@@ -1,0 +1,23 @@
+<app-navbar></app-navbar>
+
+<div class="outer-deposite-card">
+    <div class="card deposite-card">
+        <div class="card-title">
+            <h1>Deposite money</h1>
+        </div>
+        <div class="card-body">
+            <div class="mb-3">
+                <label for="amount" class="form-label">Enter the amount you want to deposite</label>
+                <input type="number" class="form-control" #amount id="amount">
+              </div>
+              <div class="row">
+                <div class="col button-row-deposite">
+                    <button type="submit" class="btn btn-primary" style="background-color: #dada0b;color: #737373;" (click)="depositeMoney(amount.value)">Deposite</button>
+                </div>
+              </div>
+        </div>
+        
+          
+    </div>
+</div>
+
