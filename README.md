@@ -1,60 +1,61 @@
-# Frontend
+# SecureTransfer-Modern-Full-Stack-Money-Transfer-Platform
+A robust and secure money transfer application built with built with Angular 19 and Spring Boot, enabling seamless financial transactions and user management. This full-stack solution demonstrates proficiency in both frontend and backend development, containerization, and database management.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.5.
+# Features
+## User Authentication
+* Secure login and registration
+* Profile management
+* Session handling with localStorage
+## Transaction Management
+* Real-time money transfers
+* Balance tracking
+* Transaction history
+## Routing & Navigation
+* Protected routes
+* Seamless page transitions
+* Responsive user interface
 
-## Development server
+# Tech Stack
+## Frontend
+* Angular 19
+* Components
+* TypeScript
+* Bootstrap CSS
+## Backend
+* Spring Boot
+* RESTful APIs
+* MySQL Database
+* JDBC Connection
+## DevOps
+* Docker containerization
+* Docker Compose for service orchestration
 
-To start a local development server, run:
+# Getting Started
+1. Clone the repository
+2. Start the MySQL database using XAMPP
+3. Run the Spring Boot backend
+4. Start the Angular frontend
+5. Access the application at http://localhost:4200
 
-```bash
-ng serve
-```
+# Screenshots
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## signup
+![Result 1](1.png)
 
-## Code scaffolding
+## login
+![Result 1](2.png)
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Dashboard
+![Result 1](3.png)
 
-```bash
-ng generate component component-name
-```
+## Transaction history
+![Result 1](4.png)
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Edit profile
+![Result 1](5.png)
 
-```bash
-ng generate --help
-```
+## Deposite money
+![Result 1](6.png)
 
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-"# SecureTransfer-Modern-Full-Stack-Money-Transfer-Platform-Frontend" 
+## send money
+![Result 1](7.png)
